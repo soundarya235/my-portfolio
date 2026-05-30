@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import profileImg from '../assets/Profile.png';
 
 export default function Hero() {
   return (
@@ -10,9 +11,7 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6 }}
         >
-          <img 
-            src="/Profile.png" 
-            alt="Soundarya" 
+          <img src={profileImg} alt="Profile" 
             className="w-60 h-60 rounded-full mx-auto mb-8 border border-blue-500/30 p-1" 
           />
         </motion.div>
