@@ -13,7 +13,7 @@ export default function Contact() {
         
         <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
           {/* Replace this with your Access Key from web3forms.com */}
-          <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+          <input type="hidden" name="access_key" value="VITE_WEB3FORMS_KEY" />
           
           <input 
             type="text" name="name" placeholder="Your Name" required

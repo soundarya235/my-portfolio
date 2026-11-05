@@ -25,9 +25,7 @@ export default function Hero() {
           <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white">
             Hi, I'm <span className="text-blue-400">Soundarya</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-400 font-light">
-            Python Fullstack Developer
-          </p>
+          
           
           {/* Professional Call to Action */}
           <motion.a 
